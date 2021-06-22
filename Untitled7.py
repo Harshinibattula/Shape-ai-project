@@ -7,9 +7,6 @@
 pip install requests
 
 
-# In[ ]:
-
-
 import requests
 #import os
 from datetime import datetime
@@ -34,16 +31,3 @@ with open('shapeaiproject.txt','w') as f:
 
 
     f.write(details)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
