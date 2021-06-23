@@ -29,5 +29,4 @@ with open('shapeaiproject.txt','w') as f:
     details=""
     details+="-------------------------------------------------------------\n"+"Weather Stats for - {}  || {}\n".format(location.upper(), date_time)+"-------------------------------------------------------------\n"+"\nCurrent temperature is: {:.2f} deg C".format(temp_city)+"\nCurrent weather desc  :"+weather_desc+"\nCurrent Humidity      :"+str(hmdt)+ "%"+"\nCurrent wind speed    :"+str(wind_spd) +"kmph"
 
-
     f.write(details)
